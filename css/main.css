@@ -1817,7 +1817,18 @@ hr.major {
   margin-left: 1em;
 }
 #exp .content img{
-  width:3.8em;
+  width:4.5em;
+}
+#exp .content .imgt img{
+  width:3.5em;
+}
+#exp .pic{
+  display: inline-block;
+  align-items:left;
+}
+#exp .heading{
+  display: inline-block;
+  
 }
 
 
@@ -1857,7 +1868,7 @@ hr.major {
     margin-left: 0.1em;
   }
   #exp .content img{
-    width:3.5em;
+    width:4.5em;
   }
   #exp .content .imgt{
     width:1em;
@@ -1865,6 +1876,7 @@ hr.major {
   #two .inner h2{
     font-size: 24px;
   }
+
 }
 
 /* Box */
