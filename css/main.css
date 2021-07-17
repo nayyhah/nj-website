@@ -1836,7 +1836,14 @@ hr.major {
   padding-top: 0.38em;
 }
 
-
+/* About */
+#about .intro h2{
+  margin-top: 2em;
+}
+#about .intro img{
+    width:1.6em; 
+    margin-top:-0.9em
+}
 
 @media (max-width: 767.98px) {
   .education {
@@ -1896,6 +1903,17 @@ hr.major {
   }
   #two .inner h2{
     font-size: 24px;
+  }
+
+  /* About */
+  #about .intro h2{
+    margin-top: 0.1em;
+    font-size: 1.66em;
+
+  }
+  #about .intro img{
+    width:1.77em; 
+    margin-top:-0.9em
   }
 
 }
