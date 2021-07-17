@@ -1869,10 +1869,11 @@ hr.major {
     text-align: center;
   }
   #exp .content h3{
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   #exp .content p{
     margin-left: 0.1em;
+    margin-bottom: 3em;
   }
   #exp .volhed .content {
     margin-right: 5px;
@@ -1882,16 +1883,16 @@ hr.major {
     padding-right: 0.5em;
   }
   #exp .volhed .pict img{
-    width:4.2em;
+    width:4em;
     padding-right: 0.5em;
   }
   #exp .volhed .heading{
     padding-top: 0.1em;
-    line-height: 0.2;
+    line-height: 0.1;
   }
   #exp .volhed .headingt{
     padding-top: 0em;
-    line-height: 0.2;
+    line-height: 0.1;
   }
   #two .inner h2{
     font-size: 24px;
