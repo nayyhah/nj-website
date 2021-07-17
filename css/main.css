@@ -1806,7 +1806,7 @@ hr.major {
   padding: 3em 2em 3em 3em;
 }
 #exp .content h2{
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 #exp .content h3{
   font-size: 1.3em;
@@ -1856,10 +1856,11 @@ hr.major {
   }
   /* volunteeer experience */
   #exp{
-    padding: 3em 2em 3em 1em;
+    padding: 3em 2em 3em 0.1em;
   }
   #exp .content h2{
-    font-size: 1.3em;
+    font-size: 1.54em;
+    text-align: center;
   }
   #exp .content h3{
     font-size: 1.3em;
