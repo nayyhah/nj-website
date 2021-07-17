@@ -1816,20 +1816,26 @@ hr.major {
 #exp .content p{
   margin-left: 1em;
 }
-#exp .content img{
-  width:4.5em;
+
+#exp .volhed {
+  display: flex;
+  flex-direction: row;
 }
-#exp .content .imgt img{
-  width:3.5em;
+#exp .volhed .pic img{
+  width:6.5em;
+  padding-right: 0.9em;
 }
-#exp .pic{
-  display: inline-block;
-  align-items:left;
+#exp .volhed .pict img{
+  width:4.7em;
+  padding-right: 0.9em;
 }
-#exp .heading{
-  display: inline-block;
-  
+#exp .volhed .heading{
+  padding-top: 0.9em;
 }
+#exp .volhed .headingt{
+  padding-top: 0.38em;
+}
+
 
 
 @media (max-width: 767.98px) {
@@ -1868,11 +1874,24 @@ hr.major {
   #exp .content p{
     margin-left: 0.1em;
   }
-  #exp .content img{
-    width:4.5em;
+  #exp .volhed .content {
+    margin-right: 5px;
   }
-  #exp .content .imgt{
-    width:1em;
+  #exp .volhed .pic img{
+    width:6.2em;
+    padding-right: 0.5em;
+  }
+  #exp .volhed .pict img{
+    width:4.2em;
+    padding-right: 0.5em;
+  }
+  #exp .volhed .heading{
+    padding-top: 0.1em;
+    line-height: 0.2;
+  }
+  #exp .volhed .headingt{
+    padding-top: 0em;
+    line-height: 0.2;
   }
   #two .inner h2{
     font-size: 24px;
