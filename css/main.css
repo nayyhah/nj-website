@@ -1800,9 +1800,26 @@ hr.major {
   font-size: 21px;
   color: #ECEBEB;
 }
-#exp .content h2{
-  font-size: 25px;
+/* volunteeer experience */
+#exp{
+  align-items:center; 
+  padding: 3em 2em 3em 3em;
 }
+#exp .content h2{
+  font-size: 1.4em;
+}
+#exp .content h3{
+  font-size: 1.3em;
+  color: #ECEBEB; 
+  float: initial;
+}
+#exp .content p{
+  margin-left: 1em;
+}
+#exp .content img{
+  width:3.8em;
+}
+
 
 @media (max-width: 767.98px) {
   .education {
@@ -1827,8 +1844,23 @@ hr.major {
     font-size:22px;
   }
   /* volunteeer experience */
+  #exp{
+    padding: 3em 2em 3em 1em;
+  }
   #exp .content h2{
-    font-size: 24px;
+    font-size: 1.3em;
+  }
+  #exp .content h3{
+    font-size: 1.3em;
+  }
+  #exp .content p{
+    margin-left: 0.1em;
+  }
+  #exp .content img{
+    width:3.5em;
+  }
+  #exp .content .imgt{
+    width:1em;
   }
   #two .inner h2{
     font-size: 24px;
@@ -4455,3 +4487,4 @@ color:red !important;
   background-color: rgb(14, 12, 12);
 }
 }
+
